@@ -1,0 +1,30 @@
+{
+  "name": "leifashby.github.io",
+  "version": "1.0.0",
+  "description": "Splash page",
+  "main": "app.js",
+  "scripts": {
+    "build": "grunt default",
+    "run": "grunt server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifashby/leifashby.github.io.git"
+  },
+  "author": "Leif Ashby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leifashby/leifashby.github.io/issues"
+  },
+  "homepage": "https://github.com/leifashby/leifashby.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-simple-watch": "git+https://github.com/amurf/grunt-simple-watch.git",
+    "gulp-watch": "^4.3.11",
+    "node-static": "^0.7.8"
+  }
+}
